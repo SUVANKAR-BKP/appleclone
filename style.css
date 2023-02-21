@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(0,1,1); */
+    color: white;
+    font-family:'Roboto', sans-serif;
+}
+#nav-back{
+    background-color: rgb(25,23,25);
+    /* height: 500px; */
+    padding: 1.7vh;
+}
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+    margin: 0 10vw;
+}
+
+.navigation>img{
+    height: 18px;
+    width: 18px;
+    background-color: transparent;
+    fill: white;
+    align-self: center;
+}
+
+.navigation>option{
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: 300;
+    align-self: center;
+}
+.navigation>span{
+    background-color: transparent;
+}
+
+.material-icons.md-18{
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 100,
+    'GRAD' 0,
+    'opsz' 24
+
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 100,
+  'GRAD' 0,
+  'opsz' 24
+}
+#bankoffer{
+    background-color: rgb(28,29,30);
+    padding: 1.8vh;
+}
+#bankoffer>h5{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+#shop{
+    color: rgb(0, 153, 255);
+}
+.landing{
+    background-image: url(./assets/img/hero_iphone14pro__e5xbgo5ffhg2_largetall.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat:no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    padding: 8vh 0;
+    height: 90vh;
+    /* width: 100%; */
+}
+.landing>h1{
+    font-size: 4vw;
+    color:rgb(244,245,246);
+}
+.landing>h3{
+    font-size: 2vw;
+    color: rgb(244,245,246);
+    font-weight: 400;
+    padding: 1.2vh 0;
+}
+#network{
+border: 1.5px solid gray;
+padding: 5px 10px;
+color: gray;
+border-radius: 15px;
+font-size: 15px;
+}
+.linkbtn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50vh;
+}
+.linkbtn>p{
+    color:rgb(0, 153, 255) ;
+    font-size: 1.5vw;
+    padding: 1.5vw;
+}
